@@ -17,8 +17,8 @@ title: Stop Bullying Tour
 email: info@stopbullyingtour.org
 description: >- # this means to ignore newlines until "baseurl:"
   Taking the Solution to bullying on the Road
-baseurl: "/sbt" # the subpath of your site, e.g. /blog
-url: "https://corrientelatina.com/sbt" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://stopbullyingtour.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stopbullyingtour
 github_username:  
 timezone: America/New_York

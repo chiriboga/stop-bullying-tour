@@ -7,111 +7,113 @@ title: Stop Bullying Tour
 description: "Description for the website."
 ---
 
-<section id="aboutus">
-	<div class="row">
-		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block-center">
-			<img src="{{ site.baseurl }}/img/sbt_pic1.jpg" class="img-responsive img-circle" />
-		</div>
-		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-			<h2>About Us</h2>
-			<p>The influential world of pop culture is standing united to respond to the global epidemic of bullying. With the support of major star power, the leaders of the “Stop Bullying Tour,” are set to bring together on several plaBorms internatonal influencers to stand up for anti-bullying. The “Stop Bullying Tour” is set to make an impact with voices from different parts of the world to encourage others to STOP all types of bullying. Join our pledge to help identify, solve and suppress the acton of bullying.</p>
-		</div>
-	</div>
-</section>
-
-
-<section id="ourmission">
-	<div class="row">
-		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block-center visible-xs">
-			<img src="{{ site.baseurl }}/img/sbt_pic2.jpg" class="img-responsive img-circle" />
-		</div>
-		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-			<h2>Our Mission</h2>
-			<p>StopBullyingtour.org will educate and provide information to schools, organizations and communities on what is bullying, what is cyber-bullying, who is at risk, and how you can prevent and respond to all types of bullying.</p>
-			<p>With our partners we will raise money for organizations and school districts around the country and eliminate the continuing dangerous student bullying problem which is causing children to commit suicide, bad health through mental and physical harm and causing a high number of students to dropout of school.  These school districts do not have the funds to address this important problem because of budget cuts due to deficits.</p>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block-center hidden-xs">
-			<img src="{{ site.baseurl }}/img/sbt_pic2.jpg" class="img-responsive img-circle" />
+<!-- HOME -->
+<section class="bg-img-1">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-8 col-sm-5 col-sm-offset-1 col-xs-12">
+				<div class="home-wrapper text-center">
+				<span class="hp-logo"><img src="{{ site.baseurl }}/img/stop-bullying-logo.png" alt="" class="pic-animate-in" /></span>
+				<h1>Stop Bullying Tour</h1>
+				<h3>Taking the Solution on the Road</h3>
+				<div class="intro">
+					<h3 class="text-center"><a href="http://donate.com" class="topbar" target="_blank">DONATE</a></h3>
+				</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
 
 
-
-<section id="ourvision">
-	<div class="row">
-		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block-center">
-			<img src="{{ site.baseurl }}/img/sbt_pic3.jpg" class="img-responsive img-circle" />
-		</div>
-		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-			<h2>Our Vision</h2>
-			<p>United, working with schools, partnering with organizations and communities we can stop bullying and create safe environments in which children and young people can live and create a climate in which everyone agrees that bullying is unacceptable</p>
-		</div>
-	</div>
-</section>
-
-
-
-
-<section id="thefacts">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-			<h2>The Facts</h2>
-			<ul class="statistics">
-			  <li class="style1">
-			    <span class="icon fa fa-line-chart"></span>
-			    <strong>3.2M</strong> students a Year get bullied
-			  </li>
-			  <li class="style2">
-			    <span class="icon fa fa-bar-chart"></span>
-			    <strong>160K</strong> teens skip school every day
-			  </li>
-			  <li class="style3">
-			    <span class="icon fa fa-clock-o"></span>
-			      <span style="display:block;font-size:1em;">Every</span>
-			      <strong>7 Minutes</strong> a child is bullied.
-			  </li>
-			  <li class="style4">
-			    <span class="icon fa fa-percent"></span>
-			    <strong>71%</strong> of students report incidents of bullying
-			  </li>
-			  <li class="style5">
-			    <span class="icon fa fa-pie-chart"></span>
-			    <strong>1/10</strong> drop out of school because of repeated bullying
-			  </li>
-			</ul>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+				<h2>The Facts</h2>
+				<ul class="statistics">
+				  <li class="style1">
+				    <span class="icon fa fa-line-chart"></span>
+				    <strong>3.2M</strong> students a Year get bullied
+				  </li>
+				  <li class="style3">
+				    <span class="icon fa fa-bar-chart"></span>
+				    <strong>160K</strong> teens skip school every day
+				  </li>
+				  <li class="style6">
+				    <span class="icon fa fa-clock-o"></span>
+				      <span style="display:block;font-size:1em;">Every</span>
+				      <strong>7 Minutes</strong> a child is bullied.
+				  </li>
+				  <li class="style4">
+				    <span class="icon fa fa-percent font1_1"></span>
+				    <strong>71%</strong> of students report incidents of bullying
+				  </li>
+				  <li class="style5">
+				    <span class="icon fa fa-frown-o"></span>
+				    <strong>1/10</strong> drop out of school because of repeated bullying
+				  </li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </section>
 
 
 
-
-
-
-<section id="thesolution">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-			<h2>The Solution</h2>
-			<ul class="features">
-				<li>
-					<span class="icon major style1 fa fa-music"></span>
-					<h3>SBT Hubs</h3>
-					<p>The SBT Hub will have a presence in the local community school and we will engage students in activities such as essays contest, arts, plays and music to give them an outlet to express themselves.</p>
-				</li>
-				<li>
-					<span class="icon major style3 fa fa-hand-peace-o"></span>
-					<h3>Bullying 101</h3>
-					<p>Bullying 101 brings together the community with experts to educate them on all aspects of bullying including identifying the issues and situation that contribute to the birth of "The Bully".</p>
-				</li>
-				<li>
-					<span class="icon major style5 fa fa-building-o"></span>
-					<h3>The Den</h3>
-					<p>(Conflict and Resolutions Center)<br>The Den is a conflict resolution program that brings resources to schools and the local community to help educate and gives tools and solutions to both the bully and the bullied.</p>
-				</li>
-			</ul>
+<section class="style6">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+				<h2>Our Efforts</h2>
+				<ul class="features">
+					<li>
+						<span class="icon major style4 fa fa-music"></span>
+						<h3>SBT Hubs</h3>
+						<p>The SBT Hub will have a presence in the local community school and we will engage students in activities such as essays contest, arts, plays and music to give them an outlet to express themselves.</p>
+					</li>
+					<li>
+						<span class="icon major style3 fa fa-hand-peace-o"></span>
+						<h3>Bullying 101</h3>
+						<p>Bullying 101 brings together the community with experts to educate them on all aspects of bullying including identifying the issues and situation that contribute to the birth of "The Bully".</p>
+					</li>
+					<li>
+						<span class="icon major style5 fa fa-building-o"></span>
+						<h3>The Den</h3>
+						<p>(Conflict and Resolutions Center)<br>The Den is a conflict resolution program that brings resources to schools and the local community to help educate and gives tools and solutions to both the bully and the bullied.</p>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </section>
 
+
+<!-- About Us -->
+<section>
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+          <h2 class="title" data-wow-delay=".1s"><span class="active-text">Our Past Projects</span></h2>
+        </div>
+      </div>
+  </div>
+    <div class="container">
+		{% for post in site.posts %}
+		  {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+		  {% if modulo == '0' or forloop.first %}
+		    <div class="row">
+		  {% endif %}
+		    <!-- don't forget those pesky 'alpha' and 'omega' tags if they're in there -->
+		    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+		    	<a href="{{ post.url }}"><img src="img/outting-3.jpg" alt="Outting 1" class="img-responsive img-rounded"/></a>
+            	<p><a href="{{ post.url }}">Trip to a Music Studio</a></p>
+		    </div>
+		  {% if modulo == '2' or forloop.last %}
+		    </div>
+		  {% endif %}
+		{% endfor %}
+    </div>
+</section>
+<!-- END About Us -->
 

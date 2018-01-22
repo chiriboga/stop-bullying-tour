@@ -1,8 +1,11 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-01-08 17:32:51 -0500
-categories: jekyll
+layout: posts
+title:  "Trip to LMP Studios"
+date:   2015-05-10 17:32:51 -0500
+categories: trips
+mainimage: outting-3.jpg
+author: Stop Bullying Tour
+comments: true
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
