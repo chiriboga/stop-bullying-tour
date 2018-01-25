@@ -42,3 +42,22 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: About Us
+    url: about-us/
+  - title: The Facts
+    url: the-facts/
+  - title: Our Model
+    url: our-model/
+  - title: Kids Corner
+    url: kids-corner/
+  - title: Blog
+    url: blog/ 
+  - title: Contact Us
+    url: contact-us/
+
+
+#paginate: 5
+#paginate_path: "/blog/page:num/"

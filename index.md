@@ -99,20 +99,14 @@ description: "Description for the website."
       </div>
   </div>
     <div class="container">
-		{% for post in site.posts %}
-		  {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
-		  {% if modulo == '0' or forloop.first %}
-		    <div class="row">
-		  {% endif %}
-		    <!-- don't forget those pesky 'alpha' and 'omega' tags if they're in there -->
-		    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-		    	<a href="{{ post.url }}"><img src="img/outting-3.jpg" alt="Outting 1" class="img-responsive img-rounded"/></a>
-            	<p><a href="{{ post.url }}">Trip to a Music Studio</a></p>
+    	<div class="row">
+    	{% for post in site.categories.trips limit:3 %}
+    		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+		    	<a href="{{ post.url }}"><img src="{{ site.baseurl }}/img/{{ post.mainimage }}" alt="{{ post.title }}" class="img-responsive img-rounded"/></a>
+            	<p><a href="{{ post.url }}">{{ post.title }}</a></p>
 		    </div>
-		  {% if modulo == '2' or forloop.last %}
-		    </div>
-		  {% endif %}
 		{% endfor %}
+		</div>
     </div>
 </section>
 <!-- END About Us -->

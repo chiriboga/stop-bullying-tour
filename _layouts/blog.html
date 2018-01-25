@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+  <script type="text/javascript">
+  // add google analytics OR Google tag manager
+  </script>
+  <!-- [begin] the navigation -->
+  {% include mainmenu.html %}
+  <!-- [end] the navigation -->
+
+  <!-- [begin] content -->
+  {{ content }}
+  <!-- [end] content -->
+
+  <!-- [begin] footer -->
+  {% include footer.html %}
+  <!-- [end] footer -->
+
+  <!-- [begin] global JS -->
+  {% include javascript.html %}
+  <!-- [end] global JS -->
+</body>
+</html>

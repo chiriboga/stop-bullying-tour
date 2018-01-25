@@ -148,6 +148,9 @@ section.style1, section.style2, section.style3, section.style4, section.style5, 
 }
 
 section h2{margin-bottom:25px;}
+.article{margin-bottom: 20px;}
+section h2.article-header{margin-bottom:5px;font-size: 1.2em;}
+.article-date{font-size: 15px; text-transform: capitalize;}
 
 .img-mainpost{margin-bottom:20px;}
 
@@ -556,9 +559,10 @@ footer .container {
 }
 footer{font-size:12pt;}
 footer a, footer a:hover, footer a:active,footer a:link, footer a:visited{color:$style8;}
+.footerbox-right{text-align: right;}
 
 @media screen and (max-width: 450px) {
-    .footerbox{text-align: center;}
+    .footerbox, .footerbox-right{text-align: center;}
 }
 
 /* Share Bar */
@@ -672,8 +676,39 @@ text-align:center;
     color:#d9534f !important;
 }
 
+.slant {
+  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+  clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+}
+
+
+
+
 @keyframes picIn{ 0%{transform:translateX(-100%)} 100%{transform:translateX(0)} }
 .pic-animate-in{animation:2.5s ease-out 0s 1 picIn}
 @media screen and (prefers-reduced-motion: reduce){
     .pic-animate-in{animation:none}
 }
+
+
+@media screen and (max-width: 1200px) {
+    .navbar-brand.logo h1{font-size: 26px;margin-top:8px;}
+    .navbar-default .navbar-nav>li>a {
+        font-family: $font-stack;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 15px;
+        padding: 15px 5px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .navbar-brand.logo h1{font-size: 22px;margin-top:10px;}
+    .navbar-default .navbar-nav>li>a {
+        font-family: $font-stack;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 13px;
+        padding: 15px 5px;
+    }
+}
+
