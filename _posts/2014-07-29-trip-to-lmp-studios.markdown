@@ -2,7 +2,7 @@
 title: Trip to LMP Studios
 layout: posts
 date: '2014-07-29 18:32:51'
-categories: trips
+category: trips
 mainimage: trips/2014-lmp-studios.jpg
 author: Stop Bullying Tour
 comments: true

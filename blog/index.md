@@ -27,7 +27,7 @@ pagination:
       </div>
       <div class="col-lg-7 col-md-7 col-sm-9 col-xs-12">
         <h2 class="article-header"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p class="article-date"><strong>Date:</strong> {{ post.date | date: "%b %d, %Y" }} | <strong>Category:</strong> {{ post.categories }}
+        <p class="article-date"><strong>Date:</strong> {{ post.date | date: "%b %d, %Y" }} | <strong>Category:</strong> <a href="{{ site.baseurl }}/blog/{{ post.category }}/">{{ post.category }}</a>
         </p>
       </div>
     </div>

@@ -2,7 +2,7 @@
 title: Trip to WeLoud Studios
 layout: posts
 date: '2014-07-29 14:00:00'
-categories: trips
+category: trips
 mainimage: trips/2014-weloudstudios.jpg
 author: Stop Bullying Tour
 comments: true

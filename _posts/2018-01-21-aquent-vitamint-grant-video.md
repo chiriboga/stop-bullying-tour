@@ -2,7 +2,7 @@
 title: Aquent & Vitamin T Grant Video
 layout: posts
 date: '2018-01-21 13:10:16'
-categories: press
+category: press
 mainimage: press/2018-rich-grant.jpg
 author: Richard Chiriboga
 comments: true

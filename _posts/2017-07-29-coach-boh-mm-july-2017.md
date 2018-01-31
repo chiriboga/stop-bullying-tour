@@ -2,7 +2,7 @@
 title: Coach Boh Minute Motivation - Why Be Average? (July 2017)
 layout: posts
 date: '2017-07-29 13:10:00'
-categories: inpiration
+category: inpiration
 mainimage: inspiration/coach-boh-4.jpg
 author: Coach Boh
 comments: true

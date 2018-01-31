@@ -2,7 +2,7 @@
 title: Coach Boh Minute Motivation - Go Get It! (May 2017)
 layout: posts
 date: '2017-05-29 13:10:00'
-categories: inpiration
+category: inpiration
 mainimage: inspiration/coach-boh-2.jpg
 author: Coach Boh
 comments: true

@@ -2,7 +2,7 @@
 title: Coach Boh Minute Motivation - Positive Affirmations (Oct 2017)
 layout: posts
 date: '2017-10-29 13:10:00'
-categories: inpiration
+category: inpiration
 mainimage: inspiration/coach-boh-3.jpg
 author: Coach Boh
 comments: true

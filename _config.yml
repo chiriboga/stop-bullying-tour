@@ -49,6 +49,7 @@ pagination:
 sass:
   sass_dir: _sass
   style: compressed
+
 # Links to include in menu navigation
 # For external links add external: true
 links:
@@ -68,9 +69,18 @@ links:
   - title: Contact Us
     url: contact-us/
 
+# Permalink Configuration
+permalink: /blog/:year/:month/:title/
+category_dir: "blog"
+category_layout: "index.html"
+# Directory used by the data_to_pages plugin.
+tag_dir: 'blog/category'
 
 # Collections
 collections:
   bod:
     output: true
     permalink: /about-us/board-of-directors/:slug/
+  topic:
+    output: true
+    permalink: /blog/:slug/
