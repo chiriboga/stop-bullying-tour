@@ -28,7 +28,9 @@
                   • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
                 {% endif %}</p>
             </header>
+            {% if page.videopost != true %}
             <img data-wow-delay=".1s" src="{{ site.baseurl }}/img/{{ page.mainimage }}" class="img-responsive img-rounded img-mainpost" />
+            {% endif %}
             <div class="post-content e-content" itemprop="articleBody">
               {{ content }}
             </div>

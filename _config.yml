@@ -28,16 +28,23 @@ theme:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - jekyll-time-to-read
+  - jekyll-paginate-v2
+
+
+exclude: [Gemfile,Gemfile.lock, README.md, node_modules, vendor/bundle/,vendor/cache/, vendor/gems/, vendor/ruby/]
+
+
+#Paginate Settings
+pagination: 
+  enabled: true
+  debug: true
+  per_page: 5
+  permalink: ':num/' # Pages are index.html inside this folder (default)
+  #permalink: '/page/:num.html' # Pages are simple html files 
+  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
+  sort_reverse: true
+
 # SASS Settings
 sass:
   sass_dir: _sass
@@ -47,6 +54,9 @@ sass:
 links:
   - title: About Us
     url: about-us/
+    sub:
+      - title: Board of Directors
+        url: /about-us/board-of-directors/
   - title: The Facts
     url: the-facts/
   - title: Our Model
@@ -59,5 +69,8 @@ links:
     url: contact-us/
 
 
-#paginate: 5
-#paginate_path: "/blog/page:num/"
+# Collections
+collections:
+  bod:
+    output: true
+    permalink: /about-us/board-of-directors/:slug/

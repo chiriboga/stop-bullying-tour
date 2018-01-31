@@ -12,6 +12,9 @@ permalink: "/contact-us/"
     <h1>Contact Us</h1>
     <p>Fill out the form below and someone will contact you</p>
     <form method="POST" action="http://formspree.io/info@stopbullyingtour.org">
+      <input type="hidden" name="_subject" value="Stop Bullying Tour Contact Form" />
+      <input type="text" name="_gotcha" style="display:none" />
+      <input type="hidden" name="_cc" value="info@coachboh.com" />
       <div class="form-group">
         <label for="FullName">Full name</label>
         <input type="text" class="form-control" id="FullName" name="fullname" placeholder="Full Name" required>

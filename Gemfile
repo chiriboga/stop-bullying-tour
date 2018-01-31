@@ -23,8 +23,8 @@ group :jekyll_plugins do
   gem "jekyll-youtube"
   gem 'octopress-minify-html'
   gem 'jekyll-sitemap'
-  gem 'jekyll-paginate'
-  #gem 'jekyll-paginate-v2'
+  gem 'jekyll-paginate-v2'
+  gem 'jekyll-time-to-read'
   gem 'jekyll-admin'
 end
 

@@ -15,6 +15,7 @@ permalink: "/about-us/"
 		<div class="row">
 			<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
 				<p>The influential world of pop culture is standing united to respond to the global epidemic of bullying. With the support of major star power, the leaders of the “Stop Bullying Tour,” are set to bring together on several plaBorms internatonal influencers to stand up for anti-bullying. The “Stop Bullying Tour” is set to make an impact with voices from different parts of the world to encourage others to STOP all types of bullying. Join our pledge to help identify, solve and suppress the acton of bullying.</p>
+				<p>Meet our <a href="/about-us/board-of-directors/">Board of Directors</a></p>
 			</div>
 			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 block-center">
 				<!-- <img src="{{ site.baseurl }}/img/sbt_pic1.jpg" class="img-responsive img-circle style5" /> -->

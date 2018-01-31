@@ -2,7 +2,7 @@
 title: Blog
 layout: blog
 description: Stop Bullying Tour Blog
-permalink: "/blog/"
+permalink: /blog/
 ---
 <section>
   <div class="container">
@@ -12,15 +12,17 @@ permalink: "/blog/"
       </div>
     </div>
     {% for post in site.posts %}
-      {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+      {% capture modulo %}{{ forloop.index | modulo: 4 }}{% endcapture %}
       {% if modulo == '1' %}
         <div class="row">
       {% endif %}
-          <div class="col-sm-4">
+          <div class="col-sm-3">
             <div class="article">
-              <a href="{{ post.url }}"><img src="{{ site.baseurl }}/img/{{ post.mainimage }}" alt="{{ post.title }}" class="img-responsive img-rounded"/></a>
+              <a href="{{ post.url }}" class="hidden-xs"><img src="{{ site.baseurl }}/img/{{ post.mainimage }}" alt="{{ post.title }}" class="img-responsive img-rounded"/></a>
               <h2 class="article-header"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-              <p class="article-date"><strong>Date:</strong> {{ post.date | date: "%b %d, %Y" }} | <strong>Category:</strong> {{ post.categories }}</p>
+              <p class="article-date"><strong>Date:</strong> {{ post.date | date: "%b %d, %Y" }} | <strong>Category:</strong> {{ post.categories }} | <span class="read-time"></span>
+              </p>
+              <div class="word-count" style="display: none;">{{ post.content }}</div>
             </div>
           </div>
       {% if modulo == '0' or forloop.last %}
