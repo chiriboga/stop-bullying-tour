@@ -13,13 +13,23 @@ description: "Description for the website."
 		<div class="row">
 			<div class="col-md-4 col-md-offset-8 col-sm-5 col-sm-offset-1 col-xs-12">
 				<div class="home-wrapper text-center">
-				<span class="hp-logo"><img src="{{ site.baseurl }}/img/stop-bullying-logo.png" alt="" class="pic-animate-in" /></span>
-				<h1>Stop Bullying Tour</h1>
-				<h3>Taking the Solution on the Road</h3>
+				<span class="hp-logo"><img src="{{ site.baseurl }}/img/stp.png" alt="" class="pic-animate-in" /></span>
+				<!-- <h3>Taking the Solution on the Road</h3> -->
 				<div class="intro">
 					<h3 class="text-center"><a href="http://donate.com" class="topbar" target="_blank">DONATE</a></h3>
 				</div>
 				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="style5">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+				<h2>The Stop Bullying Tour using the influencal world of pop culture to help spread our counter-bullying narrative.</h2>
 			</div>
 		</div>
 	</div>
@@ -68,17 +78,17 @@ description: "Description for the website."
 				<h2>Our Efforts</h2>
 				<ul class="features">
 					<li>
-						<span class="icon major style4 fa fa-music"></span>
+						<span class="icon major style7 fa fa-music"></span>
 						<h3>SBT Hubs</h3>
 						<p>The SBT Hub will have a presence in the local community school and we will engage students in activities such as essays contest, arts, plays and music to give them an outlet to express themselves.</p>
 					</li>
 					<li>
-						<span class="icon major style3 fa fa-hand-peace-o"></span>
+						<span class="icon major style7 fa fa-hand-peace-o"></span>
 						<h3>Bullying 101</h3>
 						<p>Bullying 101 brings together the community with experts to educate them on all aspects of bullying including identifying the issues and situation that contribute to the birth of "The Bully".</p>
 					</li>
 					<li>
-						<span class="icon major style5 fa fa-building-o"></span>
+						<span class="icon major style7 fa fa-building-o"></span>
 						<h3>The Den</h3>
 						<p>(Conflict and Resolutions Center)<br>The Den is a conflict resolution program that brings resources to schools and the local community to help educate and gives tools and solutions to both the bully and the bullied.</p>
 					</li>
@@ -88,25 +98,24 @@ description: "Description for the website."
 	</div>
 </section>
 
+{% include newsletter.html %}
 
 <!-- About Us -->
 <section>
   <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-          <h2 class="title" data-wow-delay=".1s"><span class="active-text">Our Past Projects</span></h2>
-        </div>
-      </div>
-  </div>
-    <div class="container">
-    	<div class="row">
-    	{% for post in site.categories.trips limit:3 %}
-    		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-		    	<a href="{{ post.url }}"><img src="{{ site.baseurl }}/img/{{ post.mainimage }}" alt="{{ post.title }}" class="img-responsive img-rounded"/></a>
-            	<p><a href="{{ post.url }}">{{ post.title }}</a></p>
-		    </div>
-		{% endfor %}
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+		  <h2 class="title" data-wow-delay=".1s"><span class="active-text">Latest Blogs</span></h2>
 		</div>
+	</div>
+	<div class="row">
+	{% for post in site.posts limit:3 %}
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+	    	<a href="{{ post.url }}"><img src="{{ site.baseurl }}/img/{{ post.mainimage }}" alt="{{ post.title }}" class="img-responsive img-rounded"/></a>
+	    	<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+	    </div>
+	{% endfor %}
+	</div>
     </div>
 </section>
 <!-- END About Us -->

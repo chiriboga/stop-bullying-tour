@@ -48,7 +48,13 @@ permalink: "/the-facts/"
 <section class="style2">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="embed-responsive embed-responsive-16by9">
+  					<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/aKmUqem_ATo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+				<label>10 Staggering Facts about Bullying<br/>by <a href="https://www.factretriever.com/bullying-facts" target="_blank">Fact Retriever</a></label>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<table cellpadding="0" cellspacing="0" border="0" class="table table-bordered">
 					<tr><td>1.</td><td>Over 3.2 million students are victims of bullying each year.</td></tr>
 					<tr><td>2.</td><td>1 in 4 teachers see nothing wrong with bullying and will only intervene 4% of the time.</td></tr>

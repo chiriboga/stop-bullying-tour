@@ -32,7 +32,7 @@ permalink: "/about-us/"
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block-center visible-xs">
-				<img src="{{ site.baseurl }}/img/sbt_pic2.jpg" class="img-responsive img-circle style2" />
+				<img src="{{ site.baseurl }}/img/sbt_pic2.jpg" class="img-responsive icon major stylebg img-circle" />
 			</div>
 			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 				<h2>Our Mission</h2>
@@ -40,7 +40,7 @@ permalink: "/about-us/"
 				<p>With our partners we will raise money for organizations and school districts around the country and eliminate the continuing dangerous student bullying problem which is causing children to commit suicide, bad health through mental and physical harm and causing a high number of students to dropout of school.  These school districts do not have the funds to address this important problem because of budget cuts due to deficits.</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block-center hidden-xs">
-				<img src="{{ site.baseurl }}/img/sbt_pic2.jpg" class="img-responsive img-circle style2" />
+				<img src="{{ site.baseurl }}/img/sbt_pic2.jpg" class="img-responsive icon major stylebg img-circle" />
 			</div>
 		</div>
 	</div>
@@ -50,7 +50,7 @@ permalink: "/about-us/"
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block-center">
-				<img src="{{ site.baseurl }}/img/sbt_pic3.jpg" class="img-responsive img-circle style4" />
+				<img src="{{ site.baseurl }}/img/sbt_pic3.jpg" class="img-responsive icon major stylebg img-circle" />
 			</div>
 			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 				<h2>Our Vision</h2>

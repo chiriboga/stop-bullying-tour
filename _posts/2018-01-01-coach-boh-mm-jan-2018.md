@@ -2,7 +2,7 @@
 title: Coach Boh 2 Minute Motivation - Visualize To Make It Real (Jan 2018)
 layout: posts
 date: '2018-01-01 13:10:00'
-category: inpiration
+category: inspiration
 mainimage: inspiration/coach-boh-6.jpg
 author: Coach Boh
 comments: true

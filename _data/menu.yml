@@ -1,0 +1,23 @@
+# Links to include in menu navigation
+# For external links add external: true
+main-menu:
+  - title: About Us
+    url: /about-us/
+    sub:
+      - title: Board of Directors
+        url: /about-us/board-of-directors/
+      - title: Our Team
+        url: /about-us/our-team/
+  - title: The Facts
+    url: /the-facts/
+  - title: Our Model
+    url: /our-model/
+    sub:
+      - title: In-Kind Donations
+        url: /our-model/in-kind-donations/
+  - title: Kids Corner
+    url: /kids-corner/
+  - title: Blog
+    url: /blog/ 
+  #- title: Contact Us
+  #  url: /contact-us/

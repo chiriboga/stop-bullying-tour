@@ -15,11 +15,12 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        {% for link in site.links %}
-          <li {% if page.url == "/{{ link.url }}" %} class="active" {%endif %}><a class="{{ link.navclass }}" href="{{ site.url }}{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a></li>
+        {% for link in site.data.menu.main-menu %}
+          <li {% if page.url == "/{{ link.url }}" %} class="active" {%endif %}><a class="{{ link.navclass }}" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
         <li><a href="/donate/"><span class="donate-text">DONATE</span></a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
 </nav>
+

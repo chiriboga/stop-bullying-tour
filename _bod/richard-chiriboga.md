@@ -3,13 +3,14 @@ layout: bod-detailed
 first_name: Richard
 last_name: Chiriboga
 position: Chief Technical Officer
-leadin: |
-  Richard is a seasoned IT professional responsible for some of the best websites for himself and icon hiphop legends. 
+quote: |
+  Success consists of going from failure to failure without loss of enthusiasm. - Winston Churchill
 social:
   github: https://github.com/chiriboga
   twitter: https://twitter.com/iamchiriboga
   wordpress: https://profiles.wordpress.org/rchiriboga
-bod-image:
+  website: http://richardchiriboga.com
+main-image:
   small: richard-chiriboga.jpg
 current-bod: true
 name: Rich

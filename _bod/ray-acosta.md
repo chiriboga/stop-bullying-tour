@@ -3,11 +3,12 @@ layout: bod-detailed
 first_name: Ray
 last_name: Acosta
 position: Chief Media Officer
-leadin: |
+quote: |
   At the point when achievement is obliged, Ray Acosta is the particular individual that organizations call upon. With more than 20 years of experience this veteran is constantly prepared for the following endeavor.
 social:
   twitter: https://twitter.com/rayroQ
-bod-image:
+  website: http://rayroq.com
+main-image:
   small: ray-acosta.jpg
 current-bod: true
 name: Ray

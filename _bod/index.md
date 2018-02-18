@@ -2,7 +2,7 @@
 title: Board of Directors
 layout: default
 description: Board of Directors | Stop Bullying Tour
-permalink: "/about-us/board-of-directors"
+permalink: "/about-us/board-of-directors/"
 ---
 <section>
 	<div class="container">

@@ -30,10 +30,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-time-to-read
   - jekyll-paginate-v2
+  - jekyll-algolia
 
 
 exclude: [Gemfile,Gemfile.lock, README.md, node_modules, vendor/bundle/,vendor/cache/, vendor/gems/, vendor/ruby/]
 
+
+#{% for post in site.categories.trips limit:3 %}
 
 #Paginate Settings
 pagination: 
@@ -50,24 +53,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# Links to include in menu navigation
-# For external links add external: true
-links:
-  - title: About Us
-    url: about-us/
-    sub:
-      - title: Board of Directors
-        url: /about-us/board-of-directors/
-  - title: The Facts
-    url: the-facts/
-  - title: Our Model
-    url: our-model/
-  - title: Kids Corner
-    url: kids-corner/
-  - title: Blog
-    url: blog/ 
-  - title: Contact Us
-    url: contact-us/
 
 # Permalink Configuration
 permalink: /blog/:year/:month/:title/
@@ -81,6 +66,15 @@ collections:
   bod:
     output: true
     permalink: /about-us/board-of-directors/:slug/
-  topic:
+  team:
+    output: true
+    permalink: /about-us/our-team/:slug/
+  blog:
     output: true
     permalink: /blog/:slug/
+
+
+algolia:
+  application_id: 'F0ZXEIRMX4'
+  index_name:     'StopBullyingTour'
+    

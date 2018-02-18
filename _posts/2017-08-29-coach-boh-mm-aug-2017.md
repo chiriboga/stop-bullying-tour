@@ -2,7 +2,7 @@
 title: Coach Boh 2 Minute Motivation - Social Media (August 2017)
 layout: posts
 date: '2017-08-29 13:10:00'
-category: inpiration
+category: inspiration
 mainimage: inspiration/coach-boh-5.jpg
 author: Coach Boh
 comments: true
