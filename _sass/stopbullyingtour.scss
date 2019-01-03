@@ -1,6 +1,10 @@
-$font-stack: "Source Sans Pro", Helvetica, sans-serif;
-$font-headers: 'Fjalla One', sans-serif;
-$font-kids: 'Indie Flower', cursive;
+$font-stack: "Source Sans Pro",
+Helvetica,
+sans-serif;
+$font-headers: 'Fjalla One',
+sans-serif;
+$font-kids: 'Indie Flower',
+cursive;
 $primary-color: #ee4d21;
 $secondary-color: #43484f;
 $body-bg: #f2f2f2;
@@ -15,8 +19,6 @@ $style7: $secondary-color;
 $style8: #FFEA03;
 $style9: #63d13e;
 $style10: $secondary-color;
-
-
 body {
     height: 100%;
     background-color: $body-bg;
@@ -30,7 +32,7 @@ body {
     line-height: 1.65;
     color: #393939;
     position: relative;
-    padding-top:40px;
+    padding-top: 40px;
 }
 
 h1,
@@ -42,7 +44,9 @@ h6 {
     font-family: $font-headers;
 }
 
-.kids {font-family:$font-kids}
+.kids {
+    font-family: $font-kids
+}
 
 a,
 a:active,
@@ -74,7 +78,6 @@ a.btn-sbt:visited {
     color: $secondary-color;
 }
 
-
 .btn-subsribe,
 a.btn-subsribe {
     padding: 20px 26px;
@@ -92,11 +95,11 @@ a.btn-subsribe {
 a.btn-subsribe:hover,
 a.btn-subsribe:active,
 a.btn-subsribe:visited {
-    background-color: $primary-color;;
+    background-color: $primary-color;
+    ;
     border-color: #fff;
-    color:#fff;
+    color: #fff;
 }
-
 
 .label-sbt,
 a.label-sbt,
@@ -110,117 +113,395 @@ a.label-sbt:visited {
     color: #fff;
 }
 
+.font1,
+.statistics li .icon.font1 {
+    font-size: 1em;
+    line-height: 1.5em;
+}
 
+.font1_1,
+.statistics li .icon.font1_1 {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
 
-.font1, .statistics li .icon.font1{font-size:1em;line-height:1.5em;}
-.font1_1, .statistics li .icon.font1_1{font-size:1.1em;line-height:1.5em;}
+.navbar-brand {
+    padding: 5px 15px 0 15px;
+    ;
+}
 
-.navbar-brand{padding:5px 15px 0 15px;;}
-.navbar-brand.logo img{max-height:40px;}
-.navbar-brand.logo h1{margin:2px 0 0 0;}
-.navbar-brand.logo h1 span{color: $primary-color}
-.navbar-default .navbar-nav>li>a{font-family: $font-headers;text-transform:uppercase;font-weight:normal;}
+.navbar-brand.logo img {
+    max-height: 40px;
+}
 
-.navbar-default .navbar-nav>li:hover>a.style1{color:$style1}
-.navbar-default .navbar-nav>li:hover>a.style2{color:$style2}
-.navbar-default .navbar-nav>li:hover>a.style3{color:$style3}
-.navbar-default .navbar-nav>li:hover>a.style4{color:$style4}
-.navbar-default .navbar-nav>li:hover>a.style5{color:$style5}
-.navbar-default .navbar-nav>li:hover>a.style6{color:$style6}
-.navbar-default .navbar-nav>li:hover>a.style7{color:$style7}
-.navbar-default .navbar-nav>li:hover>a.style8{color:$style8}
+.navbar-brand.logo h1 {
+    margin: 2px 0 0 0;
+}
 
+.navbar-brand.logo h1 span {
+    color: $primary-color
+}
 
+.navbar-default .navbar-nav>li>a {
+    font-family: $font-headers;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.navbar-default .navbar-nav>li:hover>a.style1 {
+    color: $style1
+}
+
+.navbar-default .navbar-nav>li:hover>a.style2 {
+    color: $style2
+}
+
+.navbar-default .navbar-nav>li:hover>a.style3 {
+    color: $style3
+}
+
+.navbar-default .navbar-nav>li:hover>a.style4 {
+    color: $style4
+}
+
+.navbar-default .navbar-nav>li:hover>a.style5 {
+    color: $style5
+}
+
+.navbar-default .navbar-nav>li:hover>a.style6 {
+    color: $style6
+}
+
+.navbar-default .navbar-nav>li:hover>a.style7 {
+    color: $style7
+}
+
+.navbar-default .navbar-nav>li:hover>a.style8 {
+    color: $style8
+}
 
 .donate-text {
-    background-color:$secondary-color;
+    background-color: $secondary-color;
     padding: 10px;
     color: #ffffff;
 }
 
-section{padding:40px 0;margin:0;display:block;}
-section.first{padding-bottom:0;}
-section.style1{background:$style1}
-section.style2{background:$style2}
-section.style3{background:$style3}
-section.style4{background:$style4}
-section.style5{background:$style5}
-section.style6{background:$style6}
-section.style7{background:$style7}
-section.style8{background:$style8}
-section.style9{background:$style9}
-section.style10{background:$style10}
-section.style1, section.style2, section.style3, section.style4, section.style5, section.style6, section.style7, section.style8, section.style9,, section.style10{
-    color:#fff;
+section {
+    padding: 40px 0;
+    margin: 0;
+    display: block;
 }
-section.style1 a, section.style1 a:hover, section.style1 a:active, section.style1 a:link, section.style1 a:visited,
-section.style2 a, section.style2 a:hover, section.style2 a:active, section.style2 a:link, section.style2 a:visited, 
-section.style3 a, section.style3 a:hover, section.style3 a:active, section.style3 a:link, section.style3 a:visited,
-section.style4 a, section.style4 a:hover, section.style4 a:active, section.style4 a:link, section.style4 a:visited,
-section.style5 a, section.style5 a:hover, section.style5 a:active, section.style5 a:link, section.style5 a:visited,
-section.style6 a, section.style6 a:hover, section.style6 a:active, section.style6 a:link, section.style6 a:visited,
-section.style7 a, section.style7 a:hover, section.style7 a:active, section.style7 a:link, section.style7 a:visited,
-section.style8 a, section.style8 a:hover, section.style8 a:active, section.style8 a:link, section.style8 a:visited,
-section.style9 a, section.style9 a:hover, section.style9 a:active, section.style9 a:link, section.style9 a:visited,
-section.style10 a, section.style10 a:hover, section.style10 a:active, section.style10 a:link, section.style10 a:visited,
+
+section.first {
+    padding-bottom: 0;
+}
+
+section.style1 {
+    background: $style1
+}
+
+section.style2 {
+    background: $style2
+}
+
+section.style3 {
+    background: $style3
+}
+
+section.style4 {
+    background: $style4
+}
+
+section.style5 {
+    background: $style5
+}
+
+section.style6 {
+    background: $style6
+}
+
+section.style7 {
+    background: $style7
+}
+
+section.style8 {
+    background: $style8
+}
+
+section.style9 {
+    background: $style9
+}
+
+section.style10 {
+    background: $style10
+}
+
+section.style1,
+section.style2,
+section.style3,
+section.style4,
+section.style5,
+section.style6,
+section.style7,
+section.style8,
+section.style9,
+,
+section.style10 {
+    color: #fff;
+}
+
+section.style1 a,
+section.style1 a:hover,
+section.style1 a:active,
+section.style1 a:link,
+section.style1 a:visited,
+section.style2 a,
+section.style2 a:hover,
+section.style2 a:active,
+section.style2 a:link,
+section.style2 a:visited,
+section.style3 a,
+section.style3 a:hover,
+section.style3 a:active,
+section.style3 a:link,
+section.style3 a:visited,
+section.style4 a,
+section.style4 a:hover,
+section.style4 a:active,
+section.style4 a:link,
+section.style4 a:visited,
+section.style5 a,
+section.style5 a:hover,
+section.style5 a:active,
+section.style5 a:link,
+section.style5 a:visited,
+section.style6 a,
+section.style6 a:hover,
+section.style6 a:active,
+section.style6 a:link,
+section.style6 a:visited,
+section.style7 a,
+section.style7 a:hover,
+section.style7 a:active,
+section.style7 a:link,
+section.style7 a:visited,
+section.style8 a,
+section.style8 a:hover,
+section.style8 a:active,
+section.style8 a:link,
+section.style8 a:visited,
+section.style9 a,
+section.style9 a:hover,
+section.style9 a:active,
+section.style9 a:link,
+section.style9 a:visited,
+section.style10 a,
+section.style10 a:hover,
+section.style10 a:active,
+section.style10 a:link,
+section.style10 a:visited,
 {
-    color:#fff; 
+    color: #fff;
     text-decoration: underline;
 }
 
-section.style1 h2:first-child, section.style1 h2:first-child:hover, section.style1 h2:first-child:active, section.style1 h2:first-child:link, section.style1 h2:first-childh2:first-child:visited,
-section.style2 h2:first-child, section.style2 h2:first-child:hover, section.style2 h2:first-child:active, section.style2 h2:first-child:link, section.style2 h2:first-child:visited, 
-section.style3 h2:first-child, section.style3 h2:first-child:hover, section.style3 h2:first-child:active, section.style3 h2:first-child:link, section.style3 h2:first-child:visited,
-section.style4 h2:first-child, section.style4 h2:first-child:hover, section.style4 h2:first-child:active, section.style4 h2:first-child:link, section.style4 h2:first-child:visited,
-section.style5 h2:first-child, section.style5 h2:first-child:hover, section.style5 h2:first-child:active, section.style5 h2:first-child:link, section.style5 h2:first-child:visited,
-section.style6 h2:first-child, section.style6 h2:first-child:hover, section.style6 h2:first-child:active, section.style6 h2:first-child:link, section.style6 h2:first-child:visited,
-section.style7 h2:first-child, section.style7 h2:first-child:hover, section.style7 h2:first-child:active, section.style7 h2:first-child:link, section.style7 h2:first-child:visited,
-section.style8 h2:first-child, section.style8 h2:first-child:hover, section.style8 h2:first-child:active, section.style8 h2:first-child:link, section.style8 h2:first-child:visited,
-section.style9 h2:first-child, section.style9 h2:first-child:hover, section.style9 h2:first-child:active, section.style9 h2:first-child:link, section.style9 h2:first-child:visited,
-section.style10 h2:first-child, section.style10 h2:first-child:hover, section.style10 h2:first-child:active, section.style10 h2:first-child:link, section.style10 h2:first-child:visited,
+section.style1 h2:first-child,
+section.style1 h2:first-child:hover,
+section.style1 h2:first-child:active,
+section.style1 h2:first-child:link,
+section.style1 h2:first-childh2:first-child:visited,
+section.style2 h2:first-child,
+section.style2 h2:first-child:hover,
+section.style2 h2:first-child:active,
+section.style2 h2:first-child:link,
+section.style2 h2:first-child:visited,
+section.style3 h2:first-child,
+section.style3 h2:first-child:hover,
+section.style3 h2:first-child:active,
+section.style3 h2:first-child:link,
+section.style3 h2:first-child:visited,
+section.style4 h2:first-child,
+section.style4 h2:first-child:hover,
+section.style4 h2:first-child:active,
+section.style4 h2:first-child:link,
+section.style4 h2:first-child:visited,
+section.style5 h2:first-child,
+section.style5 h2:first-child:hover,
+section.style5 h2:first-child:active,
+section.style5 h2:first-child:link,
+section.style5 h2:first-child:visited,
+section.style6 h2:first-child,
+section.style6 h2:first-child:hover,
+section.style6 h2:first-child:active,
+section.style6 h2:first-child:link,
+section.style6 h2:first-child:visited,
+section.style7 h2:first-child,
+section.style7 h2:first-child:hover,
+section.style7 h2:first-child:active,
+section.style7 h2:first-child:link,
+section.style7 h2:first-child:visited,
+section.style8 h2:first-child,
+section.style8 h2:first-child:hover,
+section.style8 h2:first-child:active,
+section.style8 h2:first-child:link,
+section.style8 h2:first-child:visited,
+section.style9 h2:first-child,
+section.style9 h2:first-child:hover,
+section.style9 h2:first-child:active,
+section.style9 h2:first-child:link,
+section.style9 h2:first-child:visited,
+section.style10 h2:first-child,
+section.style10 h2:first-child:hover,
+section.style10 h2:first-child:active,
+section.style10 h2:first-child:link,
+section.style10 h2:first-child:visited,
 {
     margin-top: 0;
 }
 
+section .style4 a {
+    color: $style9;
+    text-decoration: underline;
+}
 
-section .style4 a{color:$style9;text-decoration: underline;}
-section.subnav{background:#333;display:block;clear:both;margin:10px 0 0 0;padding:0;}
-section .breadcrumb.subnavbreadcrumb {margin-bottom:0;background-color:#333;}
+section.subnav {
+    background: #333;
+    display: block;
+    clear: both;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+section .breadcrumb.subnavbreadcrumb {
+    margin-bottom: 0;
+    background-color: #333;
+}
+
 .breadcrumb.subnavbreadcrumb>li+li:before {
     padding: 0 5px;
     color: #f2f2f2;
     content: "|";
 }
-.breadcrumb.subnavbreadcrumb a{font-weight:normal;font-size:14px;text-transform: uppercase;color:$body-bg}
+
+.breadcrumb.subnavbreadcrumb a {
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $body-bg
+}
+
+.teamHeader {
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.teamSubHeader {
+    margin-top: 5px;
+}
+
+.teamBio p {
+    font-size: 12pt;
+}
+
+section h2 {
+    margin-bottom: 25px;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+section h2.article-header {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.article-date {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.img-mainpost {
+    margin-bottom: 20px;
+}
+
+.bg-img-1 {
+    background: url(../img/little-2176130_1920.jpg);
+    background-size: cover;
+    background-position: top right;
+    position: relative;
+    min-height: 400px;
+}
+
+.home-wrapper {
+    color: #ffffff;
+    padding: 20px 0px;
+}
+
+.home-wrapper h1 {
+    color: $primary-color;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
 
 
-.teamHeader{margin-bottom:0;text-transform:uppercase;}
-.teamSubHeader{margin-top:5px;}
-.teamBio p{font-size: 12pt;}
+/*text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);*/
 
+.home-wrapper h3 {
+    color: $secondary-color;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+}
 
+.home-wrapper p {
+    line-height: 26px;
+    margin-top: 30px;
+    color: #eee;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
 
+.intro {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    border-bottom: 0;
+    margin-top: 5%;
+}
 
-section h2{margin-bottom:25px;}
-.article{margin-bottom: 20px;}
-section h2.article-header{margin-bottom:5px;font-size: 1.2em;}
-.article-date{font-size: 15px; text-transform: capitalize;}
+.intro .topbar {
+    background-color: $secondary-color;
+    color: #fff;
+    padding: 20px;
+    display: block;
+}
 
-.img-mainpost{margin-bottom:20px;}
+.intro .topbar:hover {
+    background-color: $primary-color;
+    color: #fff;
+    padding: 20px;
+    display: block;
+}
 
-.bg-img-1 {background: url(../img/little-2176130_1920.jpg);background-size:cover;background-position: top right; position:relative;min-height:400px;}
-.home-wrapper {color: #ffffff;padding:20px 0px;}
-.home-wrapper h1{color:$primary-color;margin-bottom:0;text-transform:uppercase;} /*text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);*/
-.home-wrapper h3{color:$secondary-color;margin-top:0;text-transform:uppercase;font-size:18px;}
-.home-wrapper p {line-height: 26px;margin-top: 30px;color: #eee;margin-bottom: 40px;font-size: 16px;}
-.intro {background-color: #FFFFFF;padding: 30px;border-radius: 10px;border-bottom: 0;margin-top:5%;}
-.intro .topbar {background-color:$secondary-color;color: #fff;padding:20px;display: block;}
-.intro .topbar:hover{background-color:$primary-color;color: #fff;padding:20px;display: block;}
-.intro a{color:#fff;text-decoration:none;}
-.intro h3, .intro a h3{font-size:2em;font-weight:normal;text-transform: uppercase;margin: 0;color:#fff;}
+.intro a {
+    color: #fff;
+    text-decoration: none;
+}
 
-.hp-logo img{max-width:100%;margin-bottom:10px;}
+.intro h3,
+.intro a h3 {
+    font-size: 2em;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    color: #fff;
+}
 
+.hp-logo img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
 
 .img-circle {
     border: 1px solid $primary-color;
@@ -233,31 +514,37 @@ section h2.article-header{margin-bottom:5px;font-size: 1.2em;}
     padding: 1px;
     background: $style1;
 }
+
 .img-circle.style2 {
     border: 1px solid $style2;
     padding: 1px;
     background: $style2;
 }
+
 .img-circle.style3 {
     border: 1px solid $style3;
     padding: 1px;
     background: $style3;
 }
+
 .img-circle.style4 {
     border: 1px solid $style4;
     padding: 1px;
     background: $style4;
 }
+
 .img-circle.style5 {
     border: 1px solid $style5;
     padding: 1px;
     background: $style5;
 }
+
 .img-circle.style6 {
     border: 1px solid $style6;
     padding: 1px;
     background: $style6;
 }
+
 .img-circle.style7 {
     border: 1px solid $style7;
     padding: 1px;
@@ -275,6 +562,7 @@ section h2.article-header{margin-bottom:5px;font-size: 1.2em;}
     padding: 1px;
     background: $style9;
 }
+
 .img-circle.stylebg {
     border: 1px solid $body-bg;
     padding: 1px;
@@ -286,6 +574,7 @@ section h2.article-header{margin-bottom:5px;font-size: 1.2em;}
     padding: 1px;
     background: $style10;
 }
+
 
 /* Statistics */
 
@@ -330,21 +619,27 @@ section h2.article-header{margin-bottom:5px;font-size: 1.2em;}
 .statistics li.style5 {
     background-color: $style5;
 }
+
 .statistics li.style6 {
     background-color: $style6;
 }
+
 .statistics li.style7 {
     background-color: $style7;
 }
+
 .statistics li.style8 {
     background-color: $style8;
 }
+
 .statistics li.style9 {
     background-color: $style9;
 }
+
 .statistics li.style10 {
     background-color: $style10;
 }
+
 .statistics li.stylebg {
     border: 1px solid $body-bg;
     padding: 1px;
@@ -413,37 +708,42 @@ section h2.article-header{margin-bottom:5px;font-size: 1.2em;}
     }
 }
 
+.section-cta {
+    background: $style8
+}
 
-.section-cta{background:$style8}
-.section-cta h2{color:$secondary-color;}
+.section-cta h2 {
+    color: $secondary-color;
+}
 
-.subscribe-form form{
-  position: relative;
-  max-width: 600px;
-  margin: 0px auto;
+.subscribe-form form {
+    position: relative;
+    max-width: 600px;
+    margin: 0px auto;
 }
 
 .subscribe-form input {
-  padding: 15px 20px;
-  width: 100%;
-  font-size: 17px;
-  color: #4c5667 !important;
-  border: none;
-  outline: none !important;
-  padding-right: 150px;
-  padding-left: 30px;
-  background-color: rgba(255, 255, 255, 0.85);
-  border-radius: 30px;
+    padding: 15px 20px;
+    width: 100%;
+    font-size: 17px;
+    color: #4c5667 !important;
+    border: none;
+    outline: none !important;
+    padding-right: 150px;
+    padding-left: 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 30px;
 }
+
 .subscribe-form button {
-  position: absolute;
-  text-transform: uppercase;
-  top: 8px;
-  right: 8px;
-  outline: none !important;
-  border-radius: 30px;
-  font-size: 16px;
-  padding: 9px 30px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 8px;
+    right: 8px;
+    outline: none !important;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 9px 30px;
 }
 
 
@@ -481,7 +781,7 @@ section h2.article-header{margin-bottom:5px;font-size: 1.2em;}
     margin-top: 0;
 }
 
-.features li >:last-child {
+.features li>:last-child {
     margin-bottom: 0;
 }
 
@@ -532,7 +832,7 @@ section h2.article-header{margin-bottom:5px;font-size: 1.2em;}
     text-transform: none !important;
 }
 
-.icon > .label {
+.icon>.label {
     display: none;
 }
 
@@ -543,6 +843,7 @@ section h2.article-header{margin-bottom:5px;font-size: 1.2em;}
     padding: 0.65em;
     margin: 0 0 2em 0;
 }
+
 .icon.major.inkind {
     padding: 5px;
 }
@@ -597,23 +898,32 @@ section h2.article-header{margin-bottom:5px;font-size: 1.2em;}
 .icon.style6 {
     color: $style5;
 }
+
 .icon.style7 {
     color: $style5;
 }
+
 .icon.style8 {
     color: $style5;
 }
+
 .icon.style9 {
     color: $style5;
 }
+
 .icon.style10 {
     color: $style10;
 }
-.icon-push{
-  padding:10px 20% 0;
-}
-.icon-push.icon.major, .icon-push .icon.major, .icon-push img.icon.major{margin-bottom:0;}
 
+.icon-push {
+    padding: 10px 20% 0;
+}
+
+.icon-push.icon.major,
+.icon-push .icon.major,
+.icon-push img.icon.major {
+    margin-bottom: 0;
+}
 
 @media screen and (max-width: 1680px) {
     .icon.major:before {
@@ -639,7 +949,7 @@ section h2.article-header{margin-bottom:5px;font-size: 1.2em;}
 
 .icon.major {
     border-color: #bbb;
-    background:#fff;
+    background: #fff;
 }
 
 .icon.major:before {
@@ -659,43 +969,77 @@ section h2.article-header{margin-bottom:5px;font-size: 1.2em;}
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+footer {
+    background: $secondary-color;
+    padding: 40px 0;
+}
 
-
-footer{background:$secondary-color;padding:40px 0;}
 footer .container {
     background: transparent;
     border-radius: 0;
     color: #fff;
 }
-footer{font-size:12pt;}
-footer a, footer a:hover, footer a:active,footer a:link, footer a:visited{color:$style8;}
-.footerbox-right{text-align: right;}
-footer.footerbox h3{margin-top:0;}
 
-.copyright{text-align: center;padding-top:20px;padding-bottom:20px;}
-
-@media screen and (max-width: 450px) {
-    .footerbox, .footerbox-right{text-align: center;}
+footer {
+    font-size: 12pt;
 }
 
+footer a,
+footer a:hover,
+footer a:active,
+footer a:link,
+footer a:visited {
+    color: $style8;
+}
+
+.footerbox-right {
+    text-align: right;
+}
+
+footer.footerbox h3 {
+    margin-top: 0;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .footerbox,
+    .footerbox-right {
+        text-align: center;
+    }
+}
+
+
 /* Share Bar */
+
 #share-bar {
     font-size: 20px;
 }
 
+
 /* Title */
+
 #share-bar h4 {
     margin-bottom: 10px;
     font-weight: 500;
 }
 
+
 /* All buttons */
-.share-buttons {
+
+.share-buttons {}
+
+.share-buttons a {
+    text-decoration: none;
 }
 
-.share-buttons a{text-decoration: none;}
 
 /* Each button */
+
 .share-button {
     margin: 0px;
     margin-bottom: 10px;
@@ -710,100 +1054,129 @@ footer.footerbox h3{margin-top:0;}
     color: #ffffff;
 }
 
+
 /* Facebook button */
+
 .fa-facebook-official {
     color: #3b5998;
 }
+
 .fa-facebook-official:hover {
     background-color: #3b5998;
 }
 
+
 /* Twitter button */
+
 .fa-twitter {
     color: #55acee;
 }
+
 .fa-twitter:hover {
     background-color: #55acee;
 }
 
+
 /* Google-PLus button */
+
 .fa-google-plus {
     color: #dd4b39;
 }
+
 .fa-google-plus:hover {
     background-color: #dd4b39;
 }
 
+
 /* Pinterest button */
+
 .fa-pinterest-p {
     color: #cb2027;
 }
+
 .fa-pinterest-p:hover {
     background-color: #cb2027;
 }
 
+
 /* Tumblr button */
+
 .fa-tumblr {
     color: #32506d;
 }
+
 .fa-tumblr:hover {
     background-color: #32506d;
 }
 
+
 /* Reddit button */
+
 .fa-reddit-alien {
     color: #ff4500;
 }
+
 .fa-reddit-alien:hover {
     background-color: #ff4500;
 }
 
+
 /* LinkedIn button */
+
 .fa-linkedin {
     color: #007bb5;
 }
+
 .fa-linkedin:hover {
     background-color: #007bb5;
 }
 
+
 /* Email button */
+
 .fa-envelope {
     color: #444444;
 }
+
 .fa-envelope:hover {
     background-color: #444444;
 }
 
-.subscribe-success{
-padding: 15px 20px;
-width: 100%;
-font-size: 17px;
-outline: none !important;
-padding-right: 30px;
-padding-left: 30px;
-background-color: $style9;
-border-color: #4cae4c;
-border-radius: 30px;
-color:#fff !important;
-font-weight: bold;
-text-align:center;
+.subscribe-success {
+    padding: 15px 20px;
+    width: 100%;
+    font-size: 17px;
+    outline: none !important;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: $style9;
+    border-color: #4cae4c;
+    border-radius: 30px;
+    color: #fff !important;
+    font-weight: bold;
+    text-align: center;
 }
-.subcribe-error{
-    color:#d9534f !important;
+
+.subcribe-error {
+    color: #d9534f !important;
 }
 
 .slant {
-  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
-  clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
 }
 
+.logo-box {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    height: 150px;
+}
 
-.logo-box{display: block;margin:0;padding:10px;height:150px;}
 .vertical-align {
     display: flex;
     align-items: center;
 }
-
 
 .blackboard {
     background-color: #497959;
@@ -811,11 +1184,25 @@ text-align:center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    color:#fff;   
+    color: #fff;
 }
-.blackboard a, .blackboard a:hover, .blackboard:active, .blackboard a:link, .blackboard a:visited{color:#fff;}
-.blackboard.box{padding:20px;min-height:175px;}
-.blackboard h2.kids{margin-top:0}
+
+.blackboard a,
+.blackboard a:hover,
+.blackboard:active,
+.blackboard a:link,
+.blackboard a:visited {
+    color: #fff;
+}
+
+.blackboard.box {
+    padding: 20px;
+    min-height: 175px;
+}
+
+.blackboard h2.kids {
+    margin-top: 0
+}
 
 .social-box {
     margin-top: 20px;
@@ -823,65 +1210,124 @@ text-align:center;
     padding-top: 20px;
 }
 
-section.style5 .social-box{border-top: 1px solid $style4;}
-
-
-@keyframes picIn{ 0%{transform:translateX(-100%)} 100%{transform:translateX(0)} }
-.pic-animate-in{animation:2.5s ease-out 0s 1 picIn}
-@media screen and (prefers-reduced-motion: reduce){
-    .pic-animate-in{animation:none}
+section.style5 .social-box {
+    border-top: 1px solid $style4;
 }
 
+@keyframes picIn {
+    0% {
+        transform: translateX(-100%)
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
 
-blockquote.style1{border: 5px solid $style1;background: #f2f2f2;color: #333;}
-blockquote.style2{border: 5px solid $style2;background: #f2f2f2;color: #333;}
-blockquote.style3{border: 5px solid $style3;background: #f2f2f2;color: #333;}
-blockquote.style4{border: 5px solid $style4;background: #f2f2f2;color: #333;}
-blockquote.style5{border: 5px solid $style5;background: #f2f2f2;color: #333;}
-blockquote.style6{border: 5px solid $style6;background: #f2f2f2;color: #333;}
-blockquote.style7{border: 5px solid $style7;background: #f2f2f2;color: #333;}
-blockquote.style8{border: 5px solid $style8;background: #f2f2f2;color: #333;}
-blockquote.style9{border: 5px solid $style9;background: #f2f2f2;color: #333;}
+.pic-animate-in {
+    animation: 2.5s ease-out 0s 1 picIn
+}
 
+@media screen and (prefers-reduced-motion: reduce) {
+    .pic-animate-in {
+        animation: none
+    }
+}
+
+blockquote.style1 {
+    border: 5px solid $style1;
+    background: #f2f2f2;
+    color: #333;
+}
+
+blockquote.style2 {
+    border: 5px solid $style2;
+    background: #f2f2f2;
+    color: #333;
+}
+
+blockquote.style3 {
+    border: 5px solid $style3;
+    background: #f2f2f2;
+    color: #333;
+}
+
+blockquote.style4 {
+    border: 5px solid $style4;
+    background: #f2f2f2;
+    color: #333;
+}
+
+blockquote.style5 {
+    border: 5px solid $style5;
+    background: #f2f2f2;
+    color: #333;
+}
+
+blockquote.style6 {
+    border: 5px solid $style6;
+    background: #f2f2f2;
+    color: #333;
+}
+
+blockquote.style7 {
+    border: 5px solid $style7;
+    background: #f2f2f2;
+    color: #333;
+}
+
+blockquote.style8 {
+    border: 5px solid $style8;
+    background: #f2f2f2;
+    color: #333;
+}
+
+blockquote.style9 {
+    border: 5px solid $style9;
+    background: #f2f2f2;
+    color: #333;
+}
 
 .social-circle {
-  margin: 0;
+    margin: 0;
 }
 
 .social-circle li a {
-  height: 36px;
-  width: 36px;
-  color: #4c5667;
-  border-radius: 50%;
-  font-size: 25px;
-  display: inline-block;
-  line-height: 35px;
-  background-color: #ededed;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  text-align: center;
-  margin:0;
-  padding:0;
+    height: 36px;
+    width: 36px;
+    color: #4c5667;
+    border-radius: 50%;
+    font-size: 25px;
+    display: inline-block;
+    line-height: 35px;
+    background-color: #ededed;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .social-circle li a:hover {
-  color: #ffffff !important;
-  background-color: $primary-color;
+    color: #ffffff !important;
+    background-color: $primary-color;
 }
 
 .social-circle a i.fa-twitter {
     color: #4c5667;
 }
+
 .social-circle a i.fa-twitter:hover {
     color: #ffffff !important;
     background-color: transparent;
 }
 
-
 @media screen and (max-width: 1200px) {
-    .navbar-brand.logo h1{font-size: 26px;margin-top:8px;}
+    .navbar-brand.logo h1 {
+        font-size: 26px;
+        margin-top: 8px;
+    }
     .navbar-default .navbar-nav>li>a {
         font-family: $font-stack;
         text-transform: uppercase;
@@ -890,8 +1336,12 @@ blockquote.style9{border: 5px solid $style9;background: #f2f2f2;color: #333;}
         padding: 15px 5px;
     }
 }
+
 @media screen and (max-width: 992px) {
-    .navbar-brand.logo h1{font-size: 22px;margin-top:10px;}
+    .navbar-brand.logo h1 {
+        font-size: 22px;
+        margin-top: 10px;
+    }
     .navbar-default .navbar-nav>li>a {
         font-family: $font-stack;
         text-transform: uppercase;
@@ -900,4 +1350,3 @@ blockquote.style9{border: 5px solid $style9;background: #f2f2f2;color: #333;}
         padding: 15px 5px;
     }
 }
-
